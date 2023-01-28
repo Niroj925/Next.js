@@ -105,3 +105,13 @@ a {
     color-scheme: dark;
   }
 } */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
