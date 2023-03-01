@@ -1,0 +1,7 @@
+.home{
+    cursor: pointer;
+}
+.font_weight:hover{
+    font-weight: bold;
+    color: brown;
+}

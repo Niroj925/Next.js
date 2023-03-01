@@ -1,6 +1,5 @@
 
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link';
+import style from '@/styles/index.module.css'
 import Navbar from '@/component/Navbar';
 
 export default function Home() {
@@ -11,7 +10,7 @@ export default function Home() {
         <div>
           Hello Nepal
         </div>
-        <div className='textbox'>
+        <div className={style.textbox}>
          <h3>
           <span>Welcome to MERN University</span>
            <span>mero Nepal</span>

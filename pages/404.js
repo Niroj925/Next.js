@@ -3,6 +3,7 @@ import Link from 'next/link'
 import {useRouter} from 'next/router';
 import { useEffect } from 'react';
 import Navbar from '@/component/Navbar';
+import styles from "@/styles/404.module.css";
 
 const noPage=()=>{
     const router=useRouter();
@@ -21,9 +22,9 @@ const noPage=()=>{
         <Navbar/>
         <h3>404</h3>
         <h3>page not found gaich</h3>
-        <Link href='/'>Home</Link>
+        <Link href='/' className='btc'>Home</Link>
         <br/>
-        <a onClick={handleClick} className='btc'>Back to Home</a>
+        <a onClick={handleClick} className={`${styles.home} ${styles.font_weight}`}>Back to Home</a>
         </>
     )
 }
