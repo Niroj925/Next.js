@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import {useRouter} from 'next/router';
 import { useEffect } from 'react';
+import Navbar from '@/component/Navbar';
 
 const noPage=()=>{
     const router=useRouter();
@@ -17,6 +18,7 @@ const noPage=()=>{
   })
     return(
         <>
+        <Navbar/>
         <h3>404</h3>
         <h3>page not found gaich</h3>
         <Link href='/'>Home</Link>
