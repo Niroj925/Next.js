@@ -23,7 +23,7 @@ const noPage=()=>{
         <h3>page not found gaich</h3>
         <Link href='/'>Home</Link>
         <br/>
-        <a onClick={handleClick} style={{cursor:'pointer'}}>Back to Home</a>
+        <a onClick={handleClick} className='btc'>Back to Home</a>
         </>
     )
 }

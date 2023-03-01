@@ -113,5 +113,12 @@ li {
   margin-right: 10px;
   display: inline-block;
 }
+.btc{
+  cursor: pointer;
+  
+}
 
-
+.btc:hover{
+  color:blue;
+  font-weight: bold;
+}

@@ -6,7 +6,7 @@ const Navbar=()=>{
           <nav>
       <ul className='menu-bar'>
         <li>
-           <Link href='/home'>        
+           <Link href='/'>        
             Home
           </Link>
         </li>
@@ -35,15 +35,6 @@ const Navbar=()=>{
          </li>
           
       </ul>
-      <style jsx>{`
-        nav {
-          display: flex;
-          justify-content: space-between;
-        }
-        a {
-          margin-right: 10px;
-        }
-      `}</style>
     </nav>
     
         </>
