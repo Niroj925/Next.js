@@ -3,3 +3,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkcyan;
 }
+.ssr_styles{
+    border: '1px solid black';
+    color:blueviolet
+}
